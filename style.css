@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+
+body {
+    background-color: #2f2f2f;
+}
+
+ul {
+    list-style: none;
+    background-color: #68656552;
+    text-align: right;
+    box-shadow: 0 10px 20px rgba(229, 233, 222, 0.637), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    font-family: "poppins";
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 25px;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+    text-align: center;
+    overflow-x: visible;
+}
+
+ul li a:hover {
+    background-color: rgba(0, 255, 255, 0.959);
+    color: rgb(0, 0, 0);
+    box-shadow:0 0 5px aqua,0 0 25px aqua;
+    letter-spacing: 0.1em;
+    border-radius: 28px;
+}
+
+ul li:hover ul.submenu {
+    display: block;
+}
+
+.left-aligned {
+    float: left;
+    margin-left: 40px;
+    padding-bottom: 5px;
+}
+
+.image {
+    height: 240px;
+    width: 230px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.image1 {
+    float: right;
+    padding-top: 20px;
+    display: inline;
+}
+
+.image2 {
+    float: right;
+    display: inline;
+
+}
+
+.head1 {
+    color: aqua;
+    font-size: 35px;
+    font-family: "Merriweather", serif;
+    padding-left:120px;
+    display: inline; 
+}
+
+.head2 {
+    color: gold;
+    font-size: 73px;
+    font-family: "Sevillana", cursive;
+    display: inline; 
+    padding-left: 100px;
+}
+
+.head3 {
+    color: aqua;
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    padding-left: 100px;
+    display: inline; 
+}
+
+.logo {
+    float: left;
+    margin-left: 140px;
+    padding-bottom: 5px;
+    padding-top: 0%;
+    height: 350px;
+    width: 400px;
+    filter: drop-shadow(0px 0px 12px gold);
+}
+
+hr {
+    color: black;
+}
+
+.review {
+    color: rgb(245, 241, 241);
+    font-size: 27px;
+    text-align: justify;
+
+}
+
+.user {
+    font-size: 33px;
+    padding-right: 200px;
+    padding-left: 15px;
+    color: aqua;
+    font-family: "Merriweather", serif;
+}
+.grade {
+        padding-left: 40px;
+        text-align: justify;
+        font-size: 22px;
+        font-family: "poppins";
+    }
+    .CustomerReview 
+    {
+     font-family: "Pacifico", cursive;
+     color: rgb(0, 0, 0);
+     background-color: rgb(245, 189, 6);
+     font-weight: 400;
+     font-style: normal;
+     font-size: 50px;
+     margin:10px ;
+     padding: 20px;
+    }  
+    button{
+        font-size: 30px;
+        border-radius: 35px;
+        background-color: gold;
+    }
